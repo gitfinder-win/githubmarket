@@ -1,5 +1,8 @@
 name: Update GitHub Ranking Data
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # 每天凌晨 2 点（UTC 时间）运行
